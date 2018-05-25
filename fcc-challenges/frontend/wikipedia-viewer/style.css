@@ -1,0 +1,54 @@
+body{
+  background:#ffff;
+  color:#3b3b3b;
+  font-family: "Open Sans";
+}
+
+.row {
+  margin-top:25%;
+}
+#random, #click {
+  font-size:16px;
+  }
+#random{
+  margin-bottom:20px;
+  text-decoration:underline;
+}
+#magnifier{
+  margin-top:20px;
+  font-size:30px;
+  cursor: pointer;
+  animation: ripple 1000ms infinite;
+}
+.fa-search{
+  font-size:40px;
+}
+#searchinput {
+  width:300px;
+}
+
+#searchclear{
+  position:absolute;
+  right:5px;
+  top:0;
+  bottom:0;
+  height:14px;
+  margin:auto;
+  font-size:14px;
+  cursor:pointer;
+  color:#ccc;
+}
+
+
+a, a:hover, a:visited, a:visited{
+    text-decoration:none;
+    color:#3b3b3b;
+}
+
+ul{
+  list-style-type:;
+  font-size:16px;
+}
+
+
+
