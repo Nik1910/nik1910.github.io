@@ -30,7 +30,8 @@ $(document).ready(function(){
        
 // Insert weather information into HTML
        
-    $("#city").html(city +","+ country);                       $("#weatherDescription").html(weatherDescription);
+    $("#city").html(city +","+ country);                       
+    $("#weatherDescription").html(weatherDescription);
     $("#fTemp").html(cTemp + "&#8451;");
     $("#fTemp").click(function(){
       if(tempSwap === false){
