@@ -5,31 +5,18 @@
 Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/ONjoLe/.
 
 
-### Requirements
+## Requirements
 
-* [Dropwizard]
+* User Story: I can click a button to show me a new random quote.
+* User Story: I can press a button to tweet out a quote.
 
-### Installing
+## Deployment
 
-A step by step series of examples that tell you have to get a development env running
+* Open index.html
 
-Say what the step will be
+## Launch
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
+[Random Quote Machine](https://nik1910.github.io/fcc-challenges/frontend/random-quote-machine/)
 
 ### Break down into end to end tests
 
