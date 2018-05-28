@@ -19,5 +19,5 @@ Build an app that is functionally similar to this: https://codepen.io/FreeCodeCa
 
 ## Launch
 
-[Wikipedia Viewer](nik1910.github.io/fcc-challenges/frontend/wikipedia-viewer)
+[Wikipedia Viewer](https://nik1910.github.io/fcc-challenges/frontend/wikipedia-viewer/)
 
