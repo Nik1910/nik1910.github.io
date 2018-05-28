@@ -19,7 +19,7 @@ body{
   font-size:30px;
   cursor: pointer;
   animation: ripple 1000ms infinite;
-  color: #FF9F1C;
+  color:#ff9f1c;
 }
 .fa-search{
   font-size:40px;
