@@ -1,11 +1,11 @@
 body{
-  background-color: #476481;
-  color:#3b3b3b;
+  background-color:#476481;
+  color:#fff;
   font-family: "Open Sans";
 }
 
 .row {
-  margin-top:125%;
+  margin-top:25%;
 }
 #random, #click {
   font-size:16px;
