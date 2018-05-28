@@ -1,0 +1,119 @@
+body{
+  background-color: #2d4e7d;
+  color: #fafbfc;
+}
+
+.w3-modal-content{
+  width:50%;
+  }
+.game-field{
+  font-size:150px;
+}
+
+#modHead{
+  background-color:#2d4e7d;
+  color:white;
+  padding:20px;
+  user-select:none;
+  }
+
+#modText{
+  height:80px;
+  padding:50px;
+  color:black;
+  user-select:none;
+}
+
+#modFoot button{
+  margin-bottom:40px;
+  width:30%;
+  height:50%;
+  background-color:#2d4e7d;
+  color:white;
+ }
+
+.game{
+  background-color: transparent;
+  width: 402px;
+  height: 402px;
+  margin: 50px auto;
+}
+
+.row{
+  clear:both;
+  overflow:hidden;
+}
+
+.square{
+  float:left;
+  width:140px;
+  height:140px;
+  cursor:pointer;
+  text-align:center;
+  font-size:50px;
+  padding-top:35px;
+  
+  
+}
+
+.bottom{
+  border-bottom:2px solid #fafbfc;
+}
+
+.right{
+ border-right:2px solid #fafbfc;
+}
+
+
+
+
+.win{
+ color:#ffff00;
+ transition: 150ms;
+}
+
+h2{
+ color: #fafbfc; 
+}
+
+ footer {
+  color:#fff;
+  text-decoration:none;
+  margin-top:80px;
+  }
+ footer a {
+  color:#fff;
+  text-decoration:none;
+  margin-top:80px;
+  }
+
+footer a:hover {
+  color:#fff;
+  text-decoration:none;
+  
+}
+
+#otherSide{
+  margin-top:50px;
+}
+
+
+
+@media (max-width: 440px) {
+  
+   .game{
+  width: 150px;
+  height: 150px;
+  margin: 50px auto;
+}
+
+.square{
+  width:60px;
+  height:60px;
+  font-size:20px;
+  padding-top:15px;
+ }
+    
+}
+
+
