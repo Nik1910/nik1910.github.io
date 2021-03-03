@@ -1,64 +1,75 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  
-  
-  
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
-<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Orbitron|Open+Sans:400,600'>
-<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+  <title>Calculator</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.png" />
+  <link rel='stylesheet prefetch'
+    href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Orbitron|Open+Sans:400,600'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+  <link rel="stylesheet" href="style.css">
 
-      <link rel="stylesheet" href="style.css">
 
-  
 </head>
 
 <body>
 
-  <div class="container-fluid">
- <h2 class="text-center" > Project:<br>Calculator <span><i class="fa fa-calculator"></i></span> </h2>
-  
-  <div class="container">
-  <div class="display" id="display" contentEditable=false data-text="0">0</div>
-  <hr>
-  <div class="keyboard">
-    <div class="key num" id="7">7</div>
-    <div class="key num" id="8">8</div>
-    <div class="key num" id="9">9</div>
-    <div class="key" id="/">÷</div>
-    <div class="key num" id="4">4</div>
-    <div class="key num" id="5">5</div>
-    <div class="key num" id="6">6</div>
-    <div class="key" id="*">x</div>
-    
-    <div class="key num" id="1">1</div>
-    <div class="key num" id="2">2</div>
-    <div class="key num" id="3">3</div>
-    <div class="key" id="-">-</div>
-    
-    
-    <div class="key num" id="0">0</div>
-    <div class="key" id=".">.</div>
-    <div class="key red" id="clear">C</div>
-    <div class="key" id="+">+</div>
-    
-    <div class="key" id="equals">=</div>
+  <section class="calc">
+    <div class="header-flex">
+      <div class="flex-center">
+
+        <div class="container">
+          <h2 class="text-center"> Project:<br>Calculator <span><i class="fa fa-calculator"></i></span> </h2>
+
+          <div class="calc-wrap">
+
+            <div class="display" id="display" contentEditable="false" data-text="0">0</div>
+            <hr>
+            <div class="keyboard">
+              <div class="key num" id="7">7</div>
+              <div class="key num" id="8">8</div>
+              <div class="key num" id="9">9</div>
+              <div class="key" id="/">÷</div>
+              <div class="key num" id="4">4</div>
+              <div class="key num" id="5">5</div>
+              <div class="key num" id="6">6</div>
+              <div class="key" id="*">x</div>
+
+              <div class="key num" id="1">1</div>
+              <div class="key num" id="2">2</div>
+              <div class="key num" id="3">3</div>
+              <div class="key" id="-">-</div>
+
+
+              <div class="key num" id="0">0</div>
+              <div class="key" id=".">.</div>
+              <div class="key red" id="clear">C</div>
+              <div class="key" id="+">+</div>
+
+              <div class="key" id="equals">=</div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
     </div>
-  
-  </div>
-</div>
+  </section>
 
-<footer class="text-center footer">Made by <a href="https://www.freecodecamp.org/nik1910" target="_blank">Nikita</a></footer>
+
+
+  <footer class="text-center">Made by <a href="https://www.freecodecamp.org/nik1910" target="_blank">Nikita</a>
+  </footer>
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-
-  
-
-    <script  src="main.js"></script>
-
-
+  <script src="main.js"></script>
 
 
 </body>
