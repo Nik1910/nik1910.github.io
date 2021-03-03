@@ -26,7 +26,7 @@ $(document).ready(function(){
       return;
     }
     
-  
+// If there are any of math operators e.g "2*4" and an user adds a dot, the following code lets the "input" array get the information     
    else if(/((\+|\-|\*|\/)\d+)$/g.test(inputs.join("")) === true && input === "."){
      inputs.push(input);
    }
@@ -50,14 +50,19 @@ $(document).ready(function(){
 // Caclulates and displays the results 
   function getTotal(){
     totalString = inputs.join("");
-    $(".display").html(eval(result + totalString));
+    var displayResult = eval(result + totalString);
+
+    if(displayResult % 1 == 0){
+      $(".display").html(displayResult.toFixed(0));
+    }else{
+      $(".display").html(displayResult.toFixed(1));
+    }
+    
     result = $(".display").text();
   }
   
   
-  
-  
-   $(".key").on("click", function() {
+  $(".key").on("click", function() {
 // If press the "C" button, clears results and updates it 
     if (this.id === "clear") {
       inputs = [];
@@ -73,12 +78,6 @@ $(document).ready(function(){
       getValue(this.id);
     }
   });
-  
-  
-  
-  
-  
-  
   
 });
 
