@@ -58,6 +58,7 @@ h2 {
 #fTemp,
 #windSpeed {
   cursor: pointer;
+  user-select: none;
 }
 
 #weatherDescription {
@@ -67,6 +68,12 @@ h2 {
 
 #desc {
   visibility: hidden;
+}
+
+.tempIcon,
+.windIcon{
+  color: #1167b1; 
+  user-select: none;
 }
 
 footer,
@@ -315,7 +322,7 @@ div.hide {
   margin: -1.25rem 0 0 -1.25rem;
   content: '\2744';
   color: #fff;
-  list-height: 1em;
+  line-height: 1em;
   -webkit-animation: spin 8s linear infinite reverse;
   animation: spin 8s linear infinite reverse;
 }

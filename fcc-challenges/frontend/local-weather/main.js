@@ -32,13 +32,13 @@ $(document).ready(function () {
 
       $("#city").html(city + "," + country);
       $("#weatherDescription").html(weatherDescription);
-      $("#fTemp").html(cTemp + "&#8451;");
+      $("#fTemp").html(cTemp + "<span class='tempIcon'> &#8451;</span>");
       $("#fTemp").click(function () {
         if (tempSwap === false) {
-          $("#fTemp").html(fTemp + "&#8457;");
+          $("#fTemp").html(fTemp + "<span class='tempIcon'> &#8457;</span>");
           tempSwap = true;
         } else {
-          $("#fTemp").html(cTemp + "&#8451;");
+          $("#fTemp").html(cTemp + "<span class='tempIcon'> &#8451;</span>");
           tempSwap = false;
         }
       });
@@ -47,13 +47,13 @@ $(document).ready(function () {
       // Displaying wind speed (mps and mph)   
       windSpeed = (2.237 * windSpeed).toFixed(1);
       var mps = (windSpeed / 2.24).toFixed(1);
-      $("#windSpeed").html(mps + " mps");
+      $("#windSpeed").html(mps + "<span class='windIcon'> m/s</span>");
       $("#windSpeed").click(function () {
         if (tempSwap1 === false) {
-          $("#windSpeed").html(mps + " mps");
+          $("#windSpeed").html(mps + "<span class='windIcon'> m/s</span>");
           tempSwap1 = true;
         } else {
-          $("#windSpeed").html(windSpeed + " mph");
+          $("#windSpeed").html(windSpeed + "<span class='windIcon'> mph</span>");
 
           tempSwap1 = false;
         }
