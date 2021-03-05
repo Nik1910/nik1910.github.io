@@ -54,7 +54,6 @@ $(document).ready(function () {
           tempSwap1 = true;
         } else {
           $("#windSpeed").html(windSpeed + "<span class='windIcon'> mph</span>");
-
           tempSwap1 = false;
         }
 
