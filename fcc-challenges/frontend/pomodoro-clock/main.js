@@ -140,20 +140,4 @@ $(document).ready(function () {
 
   });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 });

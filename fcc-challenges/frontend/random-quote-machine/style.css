@@ -1,11 +1,38 @@
-blockquote  {
-font-size: 18px;
-line-height: 1.45;
-position: relative;
-color: #383838;
-border:none;
-font-family: 'Quattrocento', serif;
+body,
+html {
+  height: 100%
 }
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  background-color: #006dcc;
+  -webkit-font-smoothing: antialised;
+}
+
+h2 {
+  color: white;
+  font-family: "Open Sans";
+}
+
+.quote-wrap {
+  background-color: #fff;
+  padding: 48px 60px;
+  border-radius: 6px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+blockquote {
+  font-size: 18px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+  border: none;
+  font-family: 'Quattrocento', serif;
+}
+
 blockquote:before {
   position: absolute;
   content: open-quote;
@@ -14,58 +41,80 @@ blockquote:before {
   margin-top: -0.4em;
 }
 
-
- cite {
-color: #999999;
-font-size: 14px;
-display: block;
-margin-top: -15px;
+cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: -15px;
 }
 
- cite:before {
-content: "\2014 \2009";
+cite:before {
+  content: "\2014 \2009";
 }
 
-.button-row {
-  margin-top:40px;
+.button-wrap {
+  margin-top: 55px;
 }
 
-.jumbotron{
-  background-color:white;
-  margin-top:100px;
+.button {
+  display: inline-block;
+  background-color: #1669b3;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 14px;
+  outline: 0;
+  border: none;
+  text-align: center;
+  position: relative;
 }
 
-#share, #newQuote {
-  color:white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #006dcc;
+a:focus,
+a:hover {
+  color: #fff;
 }
 
-body {
-  background-color: #006dcc;
+#newQuote {
+  float: right;
 }
-footer, footer a {
-  color:#fff;
-  text-decoration:none;
-  }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer,
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
 footer a:hover {
-  color:#fff;
-  text-decoration:none;
-  
+  color: #fff;
+  text-decoration: none;
 }
 
-h2{
-  color:white;
-  font-family: "Open Sans";
-}
 
-#manDisplay{
+#manDisplay {
   margin-right: 15px;
 }
 
-.footer{
-   position: fixed;
-   bottom: 0;
-   width: 100%;
-  
+@media (max-width: 768px) {
+
+  blockquote {
+    height: 50px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  blockquote {
+    height: 100px;
+  }
+
+  .quote-wrap {
+    padding: 15px;
+  }
+
 }
