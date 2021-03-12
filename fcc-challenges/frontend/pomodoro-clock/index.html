@@ -1,62 +1,71 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
- 
-  
-  
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Orbitron'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+  <title>Pomodoro Clock</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.svg" />
+  <link rel='stylesheet prefetch'
+    href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Orbitron'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+  <link rel="stylesheet" href="style.css">
 
-      <link rel="stylesheet" href="style.css">
-
-  
 </head>
 
 <body>
 
-  <audio id="bell1" src="http://res.cloudinary.com/dwxepusiu/video/upload/v1524801530/1_evfhlr.mp3" type="audio/mpeg"></audio>
+  <div class="container">
+    <div class="text-center">
 
-<audio id="bell2" src="http://res.cloudinary.com/dwxepusiu/video/upload/v1524801537/2_jgitms.mp3" type="audio/mpeg"></audio>
+      <h2> Project:<br>Pomodoro Clock<span><i class="fa fa-clock-o"></i></span></h2>
 
-<div class="container-fluid">
-  <h2 class="text-center" > Project:<br>Pomodoro Clock<span><i class="fa fa-clock"></i></span></h2>
- 
- <div class="container"> 
-  <div id="timer" class="timer">
-    <p><span id="time">Session</span> Time</p>
-    <h4 id="remTime"></h4>
-    <button id="start">Start</button>
-     <button id="stop">Stop</button>
-    
+      <div class="clock-wrap">
+
+        <div id="timer" class="timer">
+
+          <p><span id="time">Session</span> Time</p>
+
+          <div class="remTime-wrap">
+            <p id="remTime"></p>
+          </div>
+
+          <button id="start">Start</button>
+          <button id="stop">Stop</button>
+
+        </div>
+
+        <div class="slideContainer">
+
+          <p>Session Time: <br><span id="sessTime">30 min</span></p>
+          <input type="range" min="1" max="60" value="30" class="slider" id="sessRange">
+
+          <p id="break">Break Time: <br><span id="breakTime">15 min</span></p>
+          <input type="range" min="1" max="30" value="15" class="slider" id="breakRange">
+
+        </div>
+
+      </div>
+
+
+    </div>
   </div>
- 
- <div class="slideContainer">
-   <p>Session Time: <br><span id="sessTime">30 min</span></p>
-  <input type="range" min="1" max="60" value="30" class="slider" id="sessRange">
-   
-    <p id="break">Break Time: <br><span id="breakTime">15 min</span></p>
-  <input type="range" min="1" max="30" value="15" class="slider" id="breakRange">
-  
-</div> 
-   
-   
-  </div> 
-  
-  
-</div>
 
-<footer class="text-center footer">Made by <a href="https://www.freecodecamp.org/nik1910" target="_blank">Nikita</a></footer>
+  
+  <footer class="text-center">Made by <a href="https://www.freecodecamp.org/nik1910"
+    target="_blank">Nikita</a>
+</footer>
+
+  <audio id="bell1" src="http://res.cloudinary.com/dwxepusiu/video/upload/v1524801530/1_evfhlr.mp3"
+    type="audio/mpeg"></audio>
+  <audio id="bell2" src="http://res.cloudinary.com/dwxepusiu/video/upload/v1524801537/2_jgitms.mp3"
+    type="audio/mpeg"></audio>
+
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-
-  
-
-    <script  src="main.js"></script>
-
-
-
+  <script src="main.js"></script>
 
 </body>
 
