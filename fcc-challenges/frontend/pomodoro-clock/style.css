@@ -11,6 +11,14 @@ body {
   -webkit-font-smoothing: antialised;
 }
 
+.wrapper {
+  height: 100%;
+}
+
+.main {
+  min-height: 100%;
+}
+
 .clock-wrap {
   display: flex;
   flex-direction: column;
@@ -35,7 +43,7 @@ body {
   overflow: hidden;
 }
 
-.button-wrap{
+.button-wrap {
   position: relative;
 }
 
@@ -57,7 +65,7 @@ button:hover {
   transform: scale(1.1);
 }
 
-.remTime-wrap{
+.remTime-wrap {
   height: 70px;
 }
 
@@ -114,14 +122,8 @@ h2 {
   color: #34d4e3;
 }
 
-h2 span{
+h2 span {
   margin-left: 10px;
-}
-
-footer{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
 footer,
@@ -133,4 +135,12 @@ footer a {
 footer a:hover {
   color: #fff;
   text-decoration: none;
+}
+
+@media (max-width: 480px) {
+
+  footer {
+    margin-top: 60px;
+  }
+
 }

@@ -27,7 +27,7 @@ $(document).ready(function () {
   var output = document.getElementById("sessTime");
   output.innerHTML = slider.value + " min";
   // If a user changes the value, display it on the screen
-  slider.oninput = function() {
+  slider.oninput = function () {
     output.innerHTML = this.value + " min";
     // If a user changes session time, get it and assign to "sessTime"      
     sessTime = parseInt($("#sessTime").html());
