@@ -1,115 +1,123 @@
-body{
-  background-color: #476481;
+body,
+html {
+  height: 100%
 }
 
-.container{
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  background-color: #476481;
+  -webkit-font-smoothing: antialised;
+}
+
+.game-wrap {
   width: 360px;
   height: 400px;
   margin: 50px auto;
-  text-align: center;
-  text-align: justify;
-  padding:50px;
-  }
+}
 
-.well{
+.game-button {
   border: 1px solid black;
-  width:120px;
-  height:120px; 
-  margin:1px 3px;
-  cursor:pointer;
-  
-}
-
-#red{
-  background-color:#B5000F;
-  float: left;
-  
-}
-
-#green{
-  background-color:#22AAA1;
+  width: 120px;
+  height: 120px;
+  margin: 1px 3px;
+  cursor: pointer;
   display: inline-block;
 }
 
-#blue{
-  background-color:#007FFF;
-  clear: left;
+#red {
+  background-color: #B5000F;
+}
+
+#green {
+  background-color: #22AAA1;
+}
+
+#blue {
+  background-color: #007FFF;
+}
+
+#yellow {
+  background-color: #DBFE87;
+}
+
+#red.hl,
+#green.hl,
+#blue.hl,
+#yellow.hl {
+  opacity: 0.3;
+}
+
+.button-wrap {
+  margin-top: 15px;
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.button {
+  background-color: #1669b3;
+  padding: 5px 12px;
+  color: #fff;
+  font-size: 14px;
+  outline: 0;
+  border: none;
+  text-align: center;
+  position: relative;
   float: left;
+  border-radius: 4px;
 }
 
-#yellow{
-  background-color:#DBFE87;
-  float: left;
+.button-danger {
+  background-color: red;
 }
 
- #red.hl,#green.hl,#blue.hl,#yellow.hl {
-  opacity:0.3;
+.button-success {
+  background-color: green;
 }
 
-
-
-
-.modal-content{
-  border:none;
-  background-color: #476481;
-  color:#fff;
-  
-}
-
-.modal-header{
- border-bottom:none;
-
-}
-
-.modal-footer{
-  border-top:none;
+.button-warning {
+  background-color: orange;
 }
 
 .btn-primary-outline {
   background-color: transparent;
-  color:white;
-  margin-top:70px;
- 
+  color: white;
+  margin-top: 70px;
 }
 
-.btn-group{
-  margin:auto;
-  margin-top:-120px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  
+#reset {
+  margin-top: 30px;
 }
 
-#reset{
-  margin-top:30px;
+h2 {
+  color: #fff;
 }
 
-h2{
-  color:#fff;
+footer {
+  color: #fff;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-  footer {
-  color:#fff;
-  text-decoration:none;
-  margin-top:80px;
-  }
- footer a {
-  color:#fff;
-  text-decoration:none;
-  margin-top:80px;
-  }
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
 
 footer a:hover {
-  color:#fff;
-  text-decoration:none;
-  
+  color: #fff;
+  text-decoration: none;
 }
 
+@media (max-width: 480px) {
 
-
-@media (max-width: 350px){
-  .container{
-    margin:50px -15px;
+  .game-wrap {
+    width: 290px;
+    margin: 0 auto;
+    height: 300px;
   }
+
 }

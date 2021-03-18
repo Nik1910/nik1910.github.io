@@ -1,59 +1,55 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  
-  
-  
+  <title>Simon Game</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.svg" />
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel="stylesheet" href="style.css">
 
-      <link rel="stylesheet" href="style.css">
-
-  
 </head>
 
 <body>
 
-  
-<h2 class="text-center"> Project:<br>Simon Game&nbsp;<span><i class="fa fa-gamepad"></i></span></h2>
-
-
-
-  
   <div class="container">
-    
- <div id="red" class="well gamebutton" onclick="addToPlayer(this.id)"></div>
-    <div id="green" class="well gamebutton" onclick="addToPlayer(this.id)"></div>
-    <div id="blue" class="well gamebutton" onclick="addToPlayer(this.id)"></div>
-    <div id="yellow" class="well gamebutton" onclick="addToPlayer(this.id)"></div>
-      
-   </div>
-  
 
+    <div class="text-center">
 
+      <h2> Project:<br>Simon Game&nbsp;<span><i class="fa fa-gamepad"></i></span></h2>
 
-  <div class="btn-group">
-     
-  <button class="btn btn-danger" id="go">Go!</button>
-    <button class="btn btn-success"  id="strict"  onclick="strict()">Strict Mode:<span id="switcher"> OFF</span></button>
-      <button id="status" class="btn btn-info"><span id="stattext">Yes!</span></button>
-    <button class="btn btn-info"><span id="clickNumber">0</span></button>
- 
-</div>
+      <div class="game-wrap">
 
-  <footer id="bottFoot" class="text-center footer">Made by <a href="https://www.freecodecamp.org/nik1910" target="_blank">Nikita</a></footer>
+        <div id="red" class="game-button" onclick="addToPlayer(this.id)"></div>
+        <div id="green" class="game-button" onclick="addToPlayer(this.id)"></div>
+        <div id="blue" class="game-button" onclick="addToPlayer(this.id)"></div>
+        <div id="yellow" class="game-button" onclick="addToPlayer(this.id)"></div>
+
+        <div class="button-wrap">
+
+          <button class="button button-danger" id="go">Go!</button>
+          <button class="button button-success" id="strict" onclick="strict()">Strict Mode:<span id="switcher">
+              OFF</span></button>
+          <button id="status" class="button button-info"><span id="stattext">Yes!</span></button>
+          <button class="button button-info"><span id="clickNumber">0</span></button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer class="text-center">Made by <a href="https://www.freecodecamp.org/nik1910" target="_blank">Nikita</a></footer>
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
-
-  
-
-    <script  src="main.js"></script>
-
-
-
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src="main.js"></script>
 
 </body>
 
