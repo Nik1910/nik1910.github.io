@@ -1,119 +1,162 @@
-body{
+body,
+html {
+  height: 100%
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
   background-color: #2d4e7d;
+  color: #fafbfc;
+  -webkit-font-smoothing: antialised;
+}
+
+h2 {
   color: #fafbfc;
 }
 
-.w3-modal-content{
-  width:50%;
-  }
-.game-field{
-  font-size:150px;
+section {
+  min-height: 100%;
 }
 
-#modHead{
-  background-color:#2d4e7d;
-  color:white;
-  padding:20px;
-  user-select:none;
-  }
-
-#modText{
-  height:80px;
-  padding:50px;
-  color:black;
-  user-select:none;
+.modal-window {
+  margin: auto;
+  position: relative;
+  background-color: #fff;
+  color: #000;
+  max-width: 320px;
+  padding: 35px 50px;
+  transition: all 0.5s ease;
+  text-align: center;
+  cursor: default;
 }
 
-#modFoot button{
-  margin-bottom:40px;
-  width:30%;
-  height:50%;
-  background-color:#2d4e7d;
-  color:white;
- }
-
-.game{
-  background-color: transparent;
-  width: 402px;
-  height: 402px;
-  margin: 50px auto;
+.modal-window p {
+  margin: 20px 0;
 }
 
-.row{
-  clear:both;
-  overflow:hidden;
+.modal-window .button {
+  padding: 8px 45px;
 }
 
-.square{
-  float:left;
-  width:140px;
-  height:140px;
-  cursor:pointer;
-  text-align:center;
-  font-size:50px;
-  padding-top:35px;
-  
-  
+.board {
+  margin-top: 50px;
+  display: inline-block;
 }
 
-.bottom{
-  border-bottom:2px solid #fafbfc;
+.board td {
+  height: 120px;
+  text-align: center;
+  vertical-align: middle;
+  width: 120px;
+  cursor: pointer;
+  font-size: 50px;
 }
 
-.right{
- border-right:2px solid #fafbfc;
+.board #first,
+.board #second {
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
 }
 
-
-
-
-.win{
- color:#ffff00;
- transition: 150ms;
+.board #third,
+.board #sixth {
+  border-bottom: 1px solid #CCC;
 }
 
-h2{
- color: #fafbfc; 
+.board #fourth,
+.board #fifth {
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
 }
 
- footer {
-  color:#fff;
-  text-decoration:none;
-  margin-top:80px;
-  }
- footer a {
-  color:#fff;
-  text-decoration:none;
-  margin-top:80px;
-  }
+.board #seventh,
+.board #eighth {
+  border-right: 1px solid #CCC;
+}
+
+.button {
+  background-color: orange;
+  padding: 5px 12px;
+  color: #fff;
+  font-size: 14px;
+  outline: 0;
+  border: none;
+  text-align: center;
+  position: relative;
+  transition: all .5s ease;
+}
+
+.button:hover {
+  background-color: #fbbf50;
+}
+
+#modHead {
+  background-color: #2d4e7d;
+  color: white;
+  padding: 20px;
+  user-select: none;
+}
+
+#modText {
+  height: 80px;
+  padding: 50px;
+  color: black;
+  user-select: none;
+}
+
+#modFoot {
+  margin-top: 20px;
+}
+
+#modFoot button {
+  margin-bottom: 40px;
+  width: 30%;
+  height: 50%;
+  background-color: #2d4e7d;
+  color: white;
+}
+
+.win {
+  color: #ffff00;
+  transition: 150ms;
+}
+
+footer {
+  color: #fff;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 80px;
+}
 
 footer a:hover {
-  color:#fff;
-  text-decoration:none;
-  
+  color: #fff;
+  text-decoration: none;
+
 }
 
-#otherSide{
-  margin-top:50px;
+#otherSide {
+  margin-top: 50px;
 }
 
+@media (max-width: 480px) {
 
+  footer {
+    position: relative;
+    bottom: auto;
+    margin-top: 50px;
+  }
 
-@media (max-width: 440px) {
-  
-   .game{
-  width: 150px;
-  height: 150px;
-  margin: 50px auto;
+  .modal-window {
+    padding: 35px;
+  }
+
 }
-
-.square{
-  width:60px;
-  height:60px;
-  font-size:20px;
-  padding-top:15px;
- }
-    
-}
-
-

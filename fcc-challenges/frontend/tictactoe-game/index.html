@@ -1,89 +1,81 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  
-  
-  
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
-<link rel='stylesheet prefetch' href='https://www.w3schools.com/w3css/4/w3.css'>
-<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Great+Vibes'>
-
-      <link rel="stylesheet" href="style.css">
-
-  
+  <title>Tic-Tac-Toe Game</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.svg" />
+  <link rel='stylesheet prefetch'
+    href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Great+Vibes'>
+  <link rel='stylesheet prefetch'
+    href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css'>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="container-fluid">
-  
-  <h2 class="text-center"> Project:<br>Tic-Tac-Toe Game&nbsp;<span><i class="fa fa-gamepad"></i></span></h2>
-  
-
-<div id="myModal" class="w3-container">
-  
-  <div id="modalWind" class="w3-modal w3-animate-opacity">
-    <div class="w3-modal-content w3-card-4">
-      <header id="modHead" class="w3-container"> 
-        <span onclick="document.getElementById('modalWind').style.display='none'" 
-        class="w3-button w3-large w3-display-topright">&times;</span>
-        <h3 class="text-center">Let The Game Begin!</h3>
-      </header>
-      <div id="modText" class="w3-container">
-        <h4 class="text-center">Choose Your Side,<br>Please</h4>
-       
-        
-      </div>
-      <footer id="modFoot" class="w3-container  text-center">
-        <button type="button" id="x" class="btn w3-hover-opacity w3-hover-red"  onclick="selectModal(this.id)"><span class="fa fa-times"><span></button>
-          <button type="button" id="o" class="btn w3-hover-opacity w3-hover-red"  onclick="selectModal(this.id)"><span class="fa fa-circle-o"><span></button>
-      </footer>
-    </div>
-  </div>
-</div>
-        
-        
- <div class="game">
-   
-   <div class="row">
-   <div id="first" onclick="icon(this.id)" class="game-field square bottom right"></div>
-   <div id="second" onclick="icon(this.id)" class="game-field square bottom right"></div>
-   <div id="third" onclick="icon(this.id)" class="game-field square bottom"></div>
-   </div>
-   
-   <div class="row">
-   <div id="fourth" onclick="icon(this.id)" class="game-field square bottom right"></div>
-   <div id="fifth" onclick="icon(this.id)" class="game-field square bottom right"></div>
-   <div id="sixth" onclick="icon(this.id)" class="game-field square bottom"></div>
-   </div>
-   
-   <div class="row">
-   <div id="seventh" onclick="icon(this.id)" class="game-field square right"></div>
-   <div id="eighth" onclick="icon(this.id)" class="game-field square right"></div>
-   <div id="nineth" onclick="icon(this.id)" class="game-field square"></div>
-   </div>
-        </div>
-  
-        
-      
-</div>
-      
+  <section>
+    <div class="container">
       <div class="text-center">
-        <button id="otherSide" class="btn btn-warning">Choose Other Side</button>
-        </div>
-      
- <footer id="bottFoot" class="text-center footer">Made by <a href="https://www.freecodecamp.org/nik1910" target="_blank">Nikita</a></footer>
+
+        <h2> Project:<br>Tic-Tac-Toe Game <span><i class="fa fa-gamepad"></i></span></h2>
+
+        <table class="board">
+
+          <tr>
+            <td id="first" onclick="icon(this.id)" class="game-field even"></td>
+            <td id="second" onclick="icon(this.id)" class="game-field"></td>
+            <td id="third" onclick="icon(this.id)" class="game-field even"></td>
+          </tr>
+
+          <tr>
+            <td id="fourth" onclick="icon(this.id)" class="game-field"></td>
+            <td id="fifth" onclick="icon(this.id)" class="game-field even"></td>
+            <td id="sixth" onclick="icon(this.id)" class="game-field"></td>
+          </tr>
+
+          <tr>
+            <td id="seventh" onclick="icon(this.id)" class="game-field even"></td>
+            <td id="eighth" onclick="icon(this.id)" class="game-field"></td>
+            <td id="nineth" onclick="icon(this.id)" class="game-field even"></td>
+          </tr>
+
+        </table>
+
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button id="otherSide" class="button">Choose Other Side</button>
+    </div>
+
+  </section>
+
+  <footer class="text-center">Made by <a href="https://www.freecodecamp.org/nik1910" target="_blank">Nikita</a></footer>
+
+
+  <div class="hidden">
+
+    <div class="modal-window">
+
+      <h3 class="text-center">Let The Game Begin!</h3>
+      <p>Choose Your Side Please</p>
+      <button type="button" id="x" class="button" onclick="selectModal(this.id)"><span
+          class="fa fa-times"><span></button>
+      <button type="button" id="o" class="button" onclick="selectModal(this.id)"><span
+          class="fa fa-circle-o"><span></button>
+
+    </div>
+
+  </div>
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-
-  
-
-    <script  src="main.js"></script>
-
-
-
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
+  <script src="main.js"></script>
 
 </body>
 
