@@ -1,69 +1,52 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
- 
-  
-  
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans"rel="stylesheet'>
-<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto"rel="stylesheet'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
-
-      <link rel="stylesheet" href="style.css">
-
-  
+  <title>Twitch TV</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.svg" />
+  <link rel='stylesheet prefetch'
+    href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="container-fluid">
-  
-    <div class="row" id="row_1">
-    <h2 class="text-center" > Project:<br> Twitch TV <span><i class="fa fa-twitch"></i></span> </h2>
-      
-    </div>
-     
-      
-        
-      
-   <div class="container">
-    <nav>
-      <div class="main-nav">
-      <button class="btn btn-info" id="all">all</button>
-      <button class="btn btn-success" id="online">online</button>
-      <button class="btn btn-danger" id="offline">offline</button>
+  <div class="loader">
+    <div class="loader_inner"></div>
+  </div>
+
+  <div class="wrapper">
+    <div class="main">
+
+      <div class="container">
+        <div class="text-center">
+
+          <h2> Project:<br> Twitch TV <span><i class="fa fa-twitch"></i></span> </h2>
+
+          <div class="button-wrap">
+            <button class="button button-all" id="all">all</button>
+            <button class="button button-online" id="online">online</button>
+            <button class="button button-offline" id="offline">offline</button>
+          </div>
+
+          <div id="channels"></div>
+
+        </div>
+
       </div>
-     </nav>
-</div>
- 
-    
-  <div class="container">
-    <div id="channels">
     </div>
-</div>
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
 
-<footer class="text-center footer">Made by <a href="https://www.freecodecamp.org/nik1910" target="_blank">Nikita</a></footer>
+    <footer class="text-center footer">Made by <a href="https://www.freecodecamp.org/nik1910" target="_blank">Nikita</a>
+    </footer>
+
+  </div>
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-
-  
-
-    <script  src="main.js"></script>
-
-
-
+  <script src="main.js"></script>
 
 </body>
 
