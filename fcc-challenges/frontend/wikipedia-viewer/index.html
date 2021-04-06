@@ -1,58 +1,55 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  
-  
-  
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
-<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans"rel="stylesheet'>
-<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+  <title>Wikipedia Viewer</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.svg" />
+  <link rel='stylesheet prefetch'
+    href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch'
+    href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="style.css">
 
-      <link rel="stylesheet" href="style.css">
-
-  
 </head>
 
 <body>
 
-  <div class="container-fluid text-center">
-  
-  
-  <h2 class="text-center" > Project:<br> Build a <span><i class="fa fa-wikipedia-w"></i></span>ikipedia Viewer </h2>
-  
- <div class="row">
-   <a href = "#"><p id="random">Click here for a random article</p></a>
-   
-   <div class="btn-group" id="bar">
- <input id="searchinput" type="search" class="form-control ">
-     <span id="searchclear" class="glyphicon glyphicon-remove-circle"></span>
-     
-   </div>
-   <p><i class="glyphicon glyphicon-search" id="magnifier"></i></p>
-   <div class="text-left">
-   <ul id ="output">
-     
-     
-   </ul>
-   </div>
- 
-   
-   
-   
+  <div class="header-flex">
+    <div class="flex-center">
+
+      <div class="container">
+        <div class="text-center">
+
+          <h2> Project:<br> Build a <span><i class="fa fa-wikipedia-w"></i></span>ikipedia Viewer </h2>
+
+          <div class="wiki-wrap">
+
+            <a href="#" id="random">Click here for a random article</a>
+
+            <div class="btn-group" id="bar">
+              <input id="searchinput" type="search" class="form-control ">
+              <span id="searchclear" class="glyphicon glyphicon-remove-circle"></span>
+            </div>
+
+            <p><i class="glyphicon glyphicon-search" id="magnifier"></i></p>
+            <ul id="output"></ul>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
   </div>
-  </div>
+
+  <footer class="text-center footer">Made by <a href="https://www.freecodecamp.org/nik1910" target="_blank">Nikita</a>
+  </footer>
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-
-  
-
-    <script  src="main.js"></script>
-
-
-
+  <script src="main.js"></script>
 
 </body>
 
