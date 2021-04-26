@@ -1,4 +1,4 @@
-# Build a JavaScript Calculator
+# Build a JavaScript Calculator(the launch button is at the bottom of the page)
 
 
 ## Objective
