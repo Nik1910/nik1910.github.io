@@ -13,9 +13,12 @@ $(document).ready(function () {
   // Gets the data for all channels
   function ajax1(user1) {
     $.ajax({
-      url: "https://wind-bow.glitch.me/twitch-api/channels/" + user1,
+     url: "https://api.twitch.tv/helix/search/channels/" + user1,
       type: "GET",
       async: false,
+      headers: {
+        'Client-ID': 'c5m7bh23wta20firvrtyrmamue346y'
+      },
       success: function (data1) {
         var displayName = data1.display_name;
         var logo = data1.logo;
