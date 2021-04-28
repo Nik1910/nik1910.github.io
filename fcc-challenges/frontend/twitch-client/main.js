@@ -13,11 +13,9 @@ $(document).ready(function () {
   // Gets the data for all channels
   function ajax1(user1) {
     $.ajax({
-      url: "https://api.twitch.tv/helix/search/channels/" + user1,
+      url: "https://wind-bow.glitch.me/twitch-api/streams/" + user1,
       type: "GET",
-      headers: {
-        'Client-ID': 'c5m7bh23wta20firvrtyrmamue346y'
-      },
+      async: false,
       success: function (data1) {
         var displayName = data1.display_name;
         var logo = data1.logo;
@@ -72,7 +70,7 @@ $(document).ready(function () {
   }
 
   // Stores channels names for the second ajax
-/*
+
   var users2 = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas"];
   // Loops through all streams for data again
   for (var i = 0; i < users2.length; i++) {
@@ -93,7 +91,7 @@ $(document).ready(function () {
       }
     });
   }
-*/
+
   // Clicking on any of the navigation buttons shows the streams  corresponding
   // Toggle between all, online, and off streams upon click 
   
