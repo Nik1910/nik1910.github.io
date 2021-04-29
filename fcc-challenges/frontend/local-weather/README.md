@@ -1,10 +1,8 @@
-# Show the Local Weather(!!!the launch button is at the bottom of the page)
+# Show the Local Weather
 
-## Objective
+## Launch(Запуск приложения)
 
-Build an app that is functionally similar to this: http://codepen.io/FreeCodeCamp/full/bELRjV.
-
-
+[Local Weather App](https://nik1910.github.io/fcc-challenges/frontend/local-weather/)
 
 ## Requirements
 
@@ -16,7 +14,5 @@ Build an app that is functionally similar to this: http://codepen.io/FreeCodeCam
 
 * Open index.html
 
-## Launch
 
-[Local Weather App](https://nik1910.github.io/fcc-challenges/frontend/local-weather/)
 

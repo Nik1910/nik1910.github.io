@@ -1,11 +1,8 @@
-# Build a Tic Tac Toe Game(!!!the launch button is at the bottom of the page)
+# Build a Tic Tac Toe Game
 
+## Launch(Запуск приложения)
 
-## Objective
-
-Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/KzXQgy/.
-
-
+[Tic Tac Toe Game](https://nik1910.github.io/fcc-challenges/frontend/tictactoe-game/)
 
 ## Requirements
 
@@ -13,12 +10,9 @@ Build an app that is functionally similar to this: https://codepen.io/FreeCodeCa
 * User Story: My game will reset as soon as it's over so I can play again.
 * User Story: I can choose whether I want to play as X or O.
 
-
 ## Deployment
 
 * Open index.html
 
-## Launch
 
-[Tic Tac Toe Game](https://nik1910.github.io/fcc-challenges/frontend/tictactoe-game/)
 

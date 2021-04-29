@@ -15,11 +15,6 @@
 
 * Open index.html
 
-## Objective(Образец как должно выглядеть приложение)
-
-Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/rLJZrA/.
-
-
 
 
 

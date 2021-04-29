@@ -1,9 +1,8 @@
-# Build a Random Quote Machine(!!!the launch button is at the bottom of the page)
+# Build a Random Quote Machine
 
-## Objective
+## Launch(Запуск приложения)
 
-Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/ONjoLe/.
-
+[Random Quote Machine](https://nik1910.github.io/fcc-challenges/frontend/random-quote-machine/)
 
 ## Requirements
 
@@ -14,7 +13,5 @@ Build an app that is functionally similar to this: https://codepen.io/FreeCodeCa
 
 * Open index.html
 
-## Launch
 
-[Random Quote Machine](https://nik1910.github.io/fcc-challenges/frontend/random-quote-machine/)
 

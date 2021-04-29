@@ -1,12 +1,8 @@
-# Build a Pomodoro Clock(!!!the launch button is at the bottom of the page)
+# Build a Pomodoro Clock
 
+## Launch(Запуск приложения)
 
-
-## Objective
-
-Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/aNyxXR/.
-
-
+[Pomodoro Clock](https://nik1910.github.io/fcc-challenges/frontend/pomodoro-clock/)
 
 ## Requirements
 
@@ -17,8 +13,3 @@ Build an app that is functionally similar to this: https://codepen.io/FreeCodeCa
 ## Deployment
 
 * Open index.html
-
-## Launch
-
-[Pomodoro Clock](https://nik1910.github.io/fcc-challenges/frontend/pomodoro-clock/)
-

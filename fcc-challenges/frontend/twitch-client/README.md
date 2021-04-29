@@ -1,11 +1,8 @@
-# Use the Twitchtv JSON API(!!!the launch button is at the bottom of the page)
+# Use the Twitchtv JSON API
 
+## Launch(Запуск приложения)
 
-## Objective
-
-Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/Myvqmo/.
-
-
+[Twitch Client](https://nik1910.github.io/fcc-challenges/frontend/twitch-client/)
 
 ## Requirements
 
@@ -18,7 +15,5 @@ Build an app that is functionally similar to this: https://codepen.io/FreeCodeCa
 
 * Open index.html
 
-## Launch
 
-[Twitch Client](https://nik1910.github.io/fcc-challenges/frontend/twitch-client/)
 

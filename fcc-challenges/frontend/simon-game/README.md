@@ -1,12 +1,8 @@
-# Build a Simon Game(!!!the launch button is at the bottom of the page)
+# Build a Simon Game
 
+## Launch(Запуск приложения)
 
-
-## Objective
-
-Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/obYBjE.
-
-
+[Simon Game](https://nik1910.github.io/fcc-challenges/frontend/simon-game/)
 
 ## Requirements
 
@@ -23,7 +19,4 @@ Build an app that is functionally similar to this: https://codepen.io/FreeCodeCa
 
 * Open index.html
 
-## Launch
-
-[Simon Game](https://nik1910.github.io/fcc-challenges/frontend/simon-game/)
 

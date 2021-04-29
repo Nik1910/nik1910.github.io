@@ -1,23 +1,17 @@
-# Build a Wikipedia Viewer(!!!the launch button is at the bottom of the page)
+# Build a Wikipedia Viewer
 
+## Launch(Запуск приложения)
 
-## Objective
-
-Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/wGqEga/.
-
-
+[Wikipedia Viewer](https://nik1910.github.io/fcc-challenges/frontend/wikipedia-viewer/)
 
 ## Requirements
 
 * User Story: I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
 * User Story: I can click a button to see a random Wikipedia entry.
 
-
 ## Deployment
 
 * Open index.html
 
-## Launch
 
-[Wikipedia Viewer](https://nik1910.github.io/fcc-challenges/frontend/wikipedia-viewer/)
 
