@@ -1,10 +1,8 @@
-# Build a JavaScript Calculator(!!!the launch button is at the bottom of the page)
+# Build a JavaScript Calculator
 
+## Launch(Запуск приложения)
 
-## Objective
-
-Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/rLJZrA/.
-
+[JavaScript Calculator](https://nik1910.github.io/fcc-challenges/frontend/calculator/)
 
 
 ## Requirements
@@ -17,7 +15,11 @@ Build an app that is functionally similar to this: https://codepen.io/FreeCodeCa
 
 * Open index.html
 
-## Launch
+## Objective(Образец как должно выглядеть приложение)
 
-[JavaScript Calculator](https://nik1910.github.io/fcc-challenges/frontend/calculator/)
+Build an app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/rLJZrA/.
+
+
+
+
 
